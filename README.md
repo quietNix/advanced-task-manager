@@ -63,7 +63,7 @@ assignment/
 
 1. Navigate to the project directory:
 ```bash
-cd assignment
+cd advanced-task-manager
 ```
 
 2. Install dependencies:
