@@ -2,14 +2,17 @@
   "name": "advanced-task-manager",
   "version": "1.0.0",
   "description": "Advanced Task Manager App with React",
+  "homepage": "https://advanced-task-manager.kumarnikhil.xyz",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -31,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
